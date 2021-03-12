@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+}
+header {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 95%;
+    font-weight: 600;
+    font-family: initial;
+}
+
+.fa-search {
+    color: black;
+    position: absolute;
+    right: 75px;
+    top: 9px;
+}
+
+nav ul li {
+    border-right: 1px solid rgb(151, 147, 147);
+    padding: 5px 8px;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    height: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.fa-user {
+    border-radius: 50%;
+    border: 1px solid rgb(247, 245, 245);
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+header nav ul .user {
+    margin-right: 100px;
+}
+
+nav ul li a .fa-sort-down {
+    margin-right: 10px;
+}
+
+.logo p {
+    border: 2px solid black;
+    background-color: white;
+    padding: 0px 2px 3px 0;
+}
+
+ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    color: #8c8c8c;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.new a {
+    display: inline-block;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #4a4a4a;
+    font-weight: 900;   
+    text-decoration: none;
+}
+
+.hosp {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/32F2/production/_117524031_1371a493-7f96-49fe-88f5-8f61f5e6fe84.jpg);
+    width: 100%;
+    width: 500px;
+    height: 280px;
+    margin-left: 5px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+
+.hospital {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hos {
+    font-weight: 900;
+    font-size: xx-large;
+}
+.hosp p {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.bayden {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/7455/production/_117518792_gettyimages-1231326098.jpg);
+    background-repeat: no-repeat;
+    width: 70%;
+    width: 273px;
+    height: 135px;
+    margin-bottom: 4px;
+    margin-left: -15px;
+    margin-right: 8px;
+    color: rgb(77, 54, 54);
+}
+
+.warren {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/00F2/production/_117524200_warrenbuffett-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 273px;
+    height: 135px;
+    margin-top: 0px;
+    margin-left: -15px;
+    margin-right: 10px;
+    color: white;
+}
+
+.covid {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/1351C/production/_117523197_gettyimages-1181729555.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 270px;
+    height: 135px;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.doc {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)), url(https://ichef.bbc.co.uk/wwhp/304/ibroadcast/images/live/p0/99/8m/p0998mz4.jpg);
+    width: 100%;
+    width: 270px;
+    height: 135px;
+    margin-top: 0;
+    color: white;
+}
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.four h3 {
+    margin-bottom: 10px;
+}
+
+.back {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.four .bayden,
+.warren,
+.covid,
+.doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.four a:hover {
+text-decoration: underline;
+}
+
+.four a {
+    color: rgb(218, 213, 213);
+    margin-bottom: 6px;
+    border-left: 2px solid red;
+    padding: 0px;
+    width: 0px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.three .three-first {
+   background-image: linear-gradient(rgba(100,100,255,0.5), rgba(49,33,75,0.1)), url(https://ichef.bbci.co.uk/news/300/cpsprodpb/15DEE/production/_117528598_den.jpg);
+    width: 100%;
+    height: 150px;
+    width: 850px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+main .three .three-second {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(172, 49, 76, 0.7)), url(https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/8F60/production/_117540763_gettyimages-92531090.jpg);
+    width: 120px;
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+main .three .three-third {
+    background-image: linear-gradient(rgb(53, 59, 33,0.8), rgba(79,119,235,0.5)), url(https://ichef.bbc.co.uk/wwhp/344/cpsprodpb/D8E4/production/_117542555_1000w_q95.jpg);
+    width: 100%;
+    width: 800px;
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 290px;
+}
